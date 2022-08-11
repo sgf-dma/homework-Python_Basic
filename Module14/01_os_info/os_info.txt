@@ -1,0 +1,5 @@
+OS info is 
+uname_result(system='Linux', node='shilvana', release='5.10.0-10-amd64', version='#1 SMP Debian 5.10.84-1 (2021-12-08)', machine='x86_64')
+
+Python version is 3.9.2 (default, Feb 28 2021, 17:03:44) 
+[GCC 10.2.1 20210110] ('64bit', 'ELF')

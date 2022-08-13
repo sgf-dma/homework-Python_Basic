@@ -1,4 +1,3 @@
-
 def bad_years(year_start, year_end):
     if year_start > year_end or year_start < 1000 or year_end > 9999:
         print("Неправильный диапазон годов")
@@ -20,7 +19,10 @@ def bad_years(year_start, year_end):
                 return
             print(year)
 
+
 year_start = int(input("Введите первый год: "))
 year_end = int(input("Введите второй год: "))
 
 bad_years(year_start, year_end)
+
+# зачтено

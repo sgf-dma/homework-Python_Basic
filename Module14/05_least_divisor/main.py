@@ -1,4 +1,3 @@
-
 def min_divider(n):
     if n <= 1:
         print("Число должно быть больше или равно 1")
@@ -7,5 +6,8 @@ def min_divider(n):
         if n % d == 0:
             return d
 
+
 n = int(input("Введите число: "))
 print("наименьший делитель, отличный от единицы:", min_divider(n))
+
+# зачтено

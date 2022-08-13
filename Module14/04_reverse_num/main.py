@@ -1,9 +1,9 @@
-
 def reverse_str(s):
     rev_s = ''
     for c in s:
         rev_s = c + rev_s
     return rev_s
+
 
 def drop_leading_zeros(s):
     s1 = ''
@@ -18,6 +18,7 @@ def drop_leading_zeros(s):
     if s1 == '':
         s1 = "0"
     return s1
+
 
 # Для целого числа нули в начале не имеют значения. Для дробного - наоборот,
 # нули в конце не имеют значения. Поэтому если удалять нули просто
@@ -41,6 +42,7 @@ def reverse_float(n_str):
             rev_z = int(reverse_str(drop_leading_zeros(cur)))
     return rev_z + rev_dec
 
+
 n1 = input("Введите перве число: ")
 n2 = input("Введите второе число: ")
 
@@ -51,3 +53,5 @@ rev_n2 = reverse_float(n2)
 print("Второе число наоборот:", rev_n2)
 
 print("Сумма:", rev_n1 + rev_n2)
+
+# зачтено

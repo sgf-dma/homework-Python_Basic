@@ -1,4 +1,3 @@
-
 def sum_digits(n):
     summ = 0
     while n > 0:
@@ -6,12 +5,14 @@ def sum_digits(n):
         n = n // 10
     return summ
 
+
 def count_digits(n):
     count = 0
     while n > 0:
         count += 1
         n = n // 10
     return count
+
 
 n = int(input("Введите целое положительное число: "))
 
@@ -23,3 +24,5 @@ else:
     print("Сумма чисел:", summ)
     print("Количество цифр в числе:", count)
     print("Разность суммы и количества цифр:", summ - count)
+
+# зачтено

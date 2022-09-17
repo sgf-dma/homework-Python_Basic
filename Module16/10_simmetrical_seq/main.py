@@ -86,7 +86,6 @@ def symmetry_head(list):
         if found:
             return head
 
-
 n = int(input("Кол-во чисел: "))
 list = []
 for _ in range(n):
@@ -96,10 +95,8 @@ for _ in range(n):
 print()
 print("Последовательность:", list)
 tail = symmetry_tail(list)
-print("Нужно прписать чисел:", len(tail))
-print("Сами числа:", tail)
-
-#list = [2, 3, 4]
-#print(list)
-#print("tail", symmetry_tail(list))
-#print("head", symmetry_head(list))
+if tail:
+    print("Нужно прписать чисел:", len(tail))
+    print("Сами числа:", tail)
+else:
+    print("Последовательность симметрична.")

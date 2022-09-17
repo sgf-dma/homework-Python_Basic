@@ -1,4 +1,3 @@
-
 n_friends = int(input("К-во друзей: "))
 friends_balance = [0] * n_friends
 n_debts = int(input("Долговых расписок: "))
@@ -8,7 +7,7 @@ i_to = 1
 i_amount = 2
 debt_bills = []
 for i in range(n_debts):
-    print("\n", i+1, "-я расписка", sep='')
+    print("\n", i + 1, "-я расписка", sep='')
     v_to = int(input("Кому: "))
     if v_to < 1 or v_to > n_friends:
         print("Нету такого друга")
@@ -22,8 +21,10 @@ for i in range(n_debts):
 
 for bill in debt_bills:
     friends_balance[bill[i_from]] += bill[i_amount]
-    friends_balance[bill[i_to]]   -= bill[i_amount]
+    friends_balance[bill[i_to]] -= bill[i_amount]
 
 print("Баланс друзей:")
 for i in range(n_friends):
-    print(i+1, ": ", friends_balance[i], sep='')
+    print(i + 1, ": ", friends_balance[i], sep='')
+
+# зачтено

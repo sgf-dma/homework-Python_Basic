@@ -16,7 +16,7 @@ i_duration = 1
 cnt = int(input("Сколько песен выбрать? "))
 total_duration = 0
 for i in range(cnt):
-    song = input("Название " + str(i+1) + "-й песни: ")
+    song = input("Название " + str(i + 1) + "-й песни: ")
     for v in violator_songs:
         if v[i_name] == song:
             total_duration += v[i_duration]
@@ -25,3 +25,5 @@ for i in range(cnt):
         print("Нету такой песни.")
 
 print("Общее время звучания песен:", round(total_duration, 2), "минуты")
+
+# зачтено

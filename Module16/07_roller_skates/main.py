@@ -1,13 +1,13 @@
 n_skates = int(input("Кол-во коньков: "))
 skates = []
 for i in range(n_skates):
-    x = int(input("Размер " + str(i+1) + "-й пары: "))
+    x = int(input("Размер " + str(i + 1) + "-й пары: "))
     skates.append(x)
 
 n_foots = int(input("Кол-во людей: "))
 foots = []
 for i in range(n_foots):
-    x = int(input("Размер ноги " + str(i+1) + "-го человека: "))
+    x = int(input("Размер ноги " + str(i + 1) + "-го человека: "))
     foots.append(x)
 
 skates.sort()
@@ -20,3 +20,5 @@ for foot in foots:
             break
 
 print("Наибольшее кол-во людей, которые могут взять ролики:", n_people)
+
+# зачтено

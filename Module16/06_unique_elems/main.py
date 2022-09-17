@@ -1,8 +1,8 @@
-
 def fill_list(greet, list, n):
     for i in range(n):
-        x = int(input("Введите " + str(i+1) + "-е число для " + greet + " списка: "))
+        x = int(input("Введите " + str(i + 1) + "-е число для " + greet + " списка: "))
         list.append(x)
+
 
 list1 = []
 list2 = []
@@ -18,3 +18,5 @@ for x in list1:
     while list1.count(x) - 1 > 0:
         list1.remove(x)
 print(list1)
+
+# зачтено

@@ -1,4 +1,3 @@
-
 def join_lists(xs, ys):
     i = 0
     j = 0
@@ -16,8 +15,11 @@ def join_lists(xs, ys):
         z.extend(xs[i:])
     return z
 
+
 height = 160
 a = list(range(160, 177, 2))
 b = list(range(162, 181, 3))
 
 print("Отсортированный список учеников:", join_lists(a, b))
+
+# зачтено

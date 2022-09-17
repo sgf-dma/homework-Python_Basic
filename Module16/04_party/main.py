@@ -1,9 +1,9 @@
-
 def elem(y, xs):
     for x in xs:
         if x == y:
             return True
     return False
+
 
 def work(reply):
     if reply == "пришёл":
@@ -27,6 +27,7 @@ def work(reply):
         print("Не понимаю о чём речь..")
     return True
 
+
 guests = ['Петя', 'Ваня', 'Саша', 'Лиза', 'Катя']
 
 cont = True
@@ -36,3 +37,4 @@ while cont == True:
     cont = work(reply)
     print()
 
+# зачтено

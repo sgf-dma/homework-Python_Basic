@@ -1,6 +1,6 @@
 
-def elem(c, list):
-    return len([x for x in list if x == c]) > 0
+def elem(c, lst):
+    return len([x for x in lst if x == c]) > 0
 
 text = input("Введите текст: ")
 vowels = "аеёиыоуэюя"

@@ -233,3 +233,5 @@ text = 'vujgvmCfb tj ufscfu ouib z/vhm jdjuFyqm jt fscfuu uibo jdju/jnqm fTjnqm 
 res = decode_text(text)
 print(f"{' '.join(res)}")
 f.close()
+
+# зачтено

@@ -1,4 +1,3 @@
-
 def parse_ip(txt):
     ip_str = txt.split('.')
     ip = []
@@ -17,7 +16,10 @@ def parse_ip(txt):
     else:
         return ip
 
+
 ip_str = input("Введите IP: ")
 ip = parse_ip(ip_str)
 if ip:
     print("IP-адрес {}.{}.{}.{} корректен.".format(*ip))
+
+# зачтено

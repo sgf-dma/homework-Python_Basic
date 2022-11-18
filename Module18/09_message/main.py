@@ -36,3 +36,5 @@ def encode(msg):
 msg = input("Сообщение: ")
 res = encode(msg)
 print(f"Новое сообщение: {res}")
+
+# зачтено

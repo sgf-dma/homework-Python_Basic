@@ -13,3 +13,5 @@ if text:
             prev = c
     zipped.append(''.join([prev, str(n)]))
 print(''.join(zipped))
+
+# зачтено

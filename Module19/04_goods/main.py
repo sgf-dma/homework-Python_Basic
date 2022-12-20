@@ -24,4 +24,15 @@ store = {
     ],
 }
 
-# TODO здесь писать код
+def sum_total(lst):
+    count = 0
+    price = 0
+    for el in lst:
+        count += el['quantity']
+        price += el['quantity'] * el['price']
+    return count, price
+
+for name, gid in goods.items():
+    count, price = sum_total(store[gid])
+    print(f"{name} - {count} штук, стоимость {price:,} рубля")
+

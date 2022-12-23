@@ -612,3 +612,4 @@ $RECYCLE.BIN/
 *.lnk
 
 *.sw*
+[0-9].py

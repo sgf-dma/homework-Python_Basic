@@ -20,3 +20,4 @@ for person, orders in orders_db.items():
     for pizza in sorted(count_by_pizza):
         print(f"\t{pizza}: {count_by_pizza[pizza]}")
 
+# зачтено

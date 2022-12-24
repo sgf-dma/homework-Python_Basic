@@ -1,9 +1,8 @@
-
 n = int(input("Введите количество человек: "))
 
 gen_tree = dict()
 for i in range(n):
-    ws = input(f"{i+1}-ая пара: ").split()
+    ws = input(f"{i + 1}-ая пара: ").split()
     child = ws[0]
     parent = ws[1]
     # print(child, parent)
@@ -11,7 +10,7 @@ for i in range(n):
         gen_tree[parent] = []
     gen_tree[parent].append(child)
 
-#print(gen_tree)
+# print(gen_tree)
 
 childs = [y for xs in gen_tree.values() for y in xs]
 parents = gen_tree.keys()
@@ -35,3 +34,5 @@ else:
 
     print("Высота каждого члена семьи:")
     print("\n".join([f"{name} {h}" for name, h in sorted(gen_height.items())]))
+
+# зачтено

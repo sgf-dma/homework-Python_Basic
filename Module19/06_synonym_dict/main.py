@@ -1,7 +1,7 @@
 vocabulary = dict()
 n = int(input("Введите количество пар слов: "))
 for i in range(0, n):
-    w = input(f"{i+1}-ая пара: ").split()
+    w = input(f"{i + 1}-ая пара: ").split()
     if len(w) < 3:
         print("Некорректная пара")
         continue
@@ -16,3 +16,5 @@ while word != "":
     else:
         print("Синоним:", syn)
     word = input("Введите слово: ")
+
+# зачтено

@@ -1,6 +1,6 @@
-
 def show_dict(d):
     return "\n".join([f"{k}: {v}" for k, v in d.items()])
+
 
 text = input("Введите текст: ")
 freq = dict()
@@ -15,3 +15,5 @@ for c, fr in freq.items():
 
 print("Оригинальный словарь частот:\n", show_dict(freq), sep='')
 print("Инвертированный словарь частот:\n", show_dict(char_by_freq), sep='')
+
+# зачтено

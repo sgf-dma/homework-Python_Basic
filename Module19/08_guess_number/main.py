@@ -19,6 +19,7 @@ if max_num <= guess_len:
     guess_len = max_num - 1
     print(f"Reducing guess_len to {guess_len}")
 
+
 # Борис просто выбирает произвольный набор чисел.
 def boris_guess():
     global guess_len
@@ -62,7 +63,7 @@ if max_num > 1:
     for _ in range(0, max_turns):
         print(f"Current possible nums: {possible_nums}")
         guesses = boris_guess()
-        #guesses = boris_guess_v2(possible_nums)
+        # guesses = boris_guess_v2(possible_nums)
         print(
             "Нужное число есть среди вот этих чисел: {}".format(
                 " ".join([str(i) for i in guesses])
@@ -90,3 +91,5 @@ if max_num > 1:
 
 else:
     print(f"Угадал! Это 1")
+
+# зачтено

@@ -194,3 +194,5 @@ data["tokens"][1]["sec_token_info"]["new_price"] = data["tokens"][1][
     "sec_token_info"
 ].pop("price")
 print("5. ['sec_token_info'] = {}".format(data["tokens"][1]["sec_token_info"].keys()))
+
+# зачтено
